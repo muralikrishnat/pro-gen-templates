@@ -1,0 +1,35 @@
+{
+  "ui": [
+    {
+      "name": "v1",
+      "description": "A simple UI template for a web application with single html, css, and js files.",
+      "folderPath": "ui/v1",
+      "stack": [
+        "html",
+        "css",
+        "javascript",
+        "tailwindcss"
+      ],
+      "tags": [
+        "Tailwind CSS",
+        "Style Guide",
+        "CDN"
+      ]
+    }
+  ],
+  "api": [
+    {
+      "name": "v1",
+      "description": "A simple API template for a Node.js application",
+      "folderPath": "api/v1",
+      "stack": [
+        "nodejs"
+      ],
+      "tags": [
+        "Node.js",
+        "Bare nodejs"
+      ]
+    }
+  ],
+  "fullstack": []
+}
