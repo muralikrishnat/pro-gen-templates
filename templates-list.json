@@ -14,7 +14,8 @@
         "Tailwind CSS",
         "Style Guide",
         "CDN"
-      ]
+      ],
+      "files": "v1/\n├── public\n│   └── index.html\n├── index.js\n├── package.json\n"
     }
   ],
   "api": [
@@ -28,7 +29,8 @@
       "tags": [
         "Node.js",
         "Bare nodejs"
-      ]
+      ],
+      "files": "v1/\n├── index.js\n├── package.json\n"
     }
   ],
   "fullstack": []
