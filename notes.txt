@@ -1,7 +1,7 @@
 =====================
 UI
 ---------------------
-react-tailwind-vite-[version]
+react-tw-vite-[version]
 react-esbuild-[version]
 =====================
 
@@ -13,13 +13,14 @@ API
 expressjs-[version]
 restify-[version]
 fastify-[version]
+no-framework-[version]
 =====================
 
 
 =====================
 Fullstack
 ---------------------
-expressjs-react-tailwind-[version]
-nextjs-[version]
+expressjs-react-tw-[version]
+nextjs-[version]3
 sailsjs-react-[version]
 =====================

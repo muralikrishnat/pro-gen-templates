@@ -32,7 +32,7 @@ v1/
 ├── public
 │   └── index.html
 ├── index.js
-├── package.json
+└── package.json
 ```
 
 ---
@@ -64,7 +64,7 @@ v1/
 > No fullstack templates available yet. Coming soon!
 
 ---
-
+<!-- 
 ## 📖 Usage
 
 1. **Browse** the templates above and find one that fits your needs.
@@ -85,6 +85,6 @@ v1/
 
 Have a template to add? Open a PR with your template folder and update the consolidated JSON file accordingly.
 
----
+--- -->
 
 <p align="center">Made with ❤️ — Happy coding!</p>
