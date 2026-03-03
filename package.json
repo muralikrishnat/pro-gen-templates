@@ -1,0 +1,12 @@
+{
+  "name": "pro-gen-templates",
+  "version": "1.0.0",
+  "description": "Project boilerplates for UI, API and Full stack projects",
+  "main": "generate-tree-view.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
