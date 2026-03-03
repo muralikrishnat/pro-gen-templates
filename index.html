@@ -263,7 +263,12 @@
     };
 
     const loadTemplates = async () => {
-      fetch('/templates-list.json')
+      let templateListJsonPath = 'https://raw.githubusercontent.com/muralikrishnat/pro-gen-templates/refs/heads/main/templates-list.json';
+      if(location.hostname.includes('localhost')) {
+        // During local development, load from local file system
+        templateListJsonPath = './templates-list.json';
+      }
+      fetch(templateListJsonPath)
         .then(res => res.json())
         .then(data => {
           console.log('Loaded templates metadata:', data);
