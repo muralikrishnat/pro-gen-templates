@@ -16,7 +16,7 @@
       "Drafted Manually",
       "Verified Manually"
     ],
-    "structure": "v1/\n├── public\n│   └── index.html\n├── index.js\n├── package.json\n└── template-meta.json\n",
+    "structure": "v1/\n├── public\n│   └── index.html\n├── index.js\n└── package.json\n",
     "testedOn": {
       "Node": "v20.11.0",
       "OS": "macOS, Windows",

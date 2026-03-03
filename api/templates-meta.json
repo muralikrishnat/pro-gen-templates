@@ -12,7 +12,7 @@
       "Node.js",
       "Bare nodejs"
     ],
-    "structure": "v1/\n├── index.js\n├── package.json\n└── template-meta.json\n",
+    "structure": "v1/\n├── index.js\n└── package.json\n",
     "testedOn": {
       "Node": "v20.11.0",
       "OS": "macOS, Windows",
