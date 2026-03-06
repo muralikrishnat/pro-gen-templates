@@ -380,6 +380,11 @@
 
       // Dependencies
       const depsContainer = document.getElementById('dt-deps');
+      if(template.dependencies && Object.keys(template.dependencies).length > 0) {
+        depsContainer.parentElement.classList.remove('hidden');
+      } else {
+        depsContainer.parentElement.classList.add('hidden');
+      }
       depsContainer.innerHTML = Object.entries(template.dependencies).map(([pkg, ver]) => `
                 <div class="flex items-center gap-2 bg-indigo-500/10 border border-indigo-500/20 text-indigo-200 px-3 py-1.5 rounded-lg text-xs font-mono">
                     <span class="text-white">${pkg}</span>
